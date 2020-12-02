@@ -10,7 +10,7 @@ var a = $$('pre')[0].innerText.split('\n')
 var sumMap = {};
 for (const s1 of a) {
     for(const s2 of a) {
-        sumMap[parseInt(s1)+parseInt(s2)] = [s1,2]
+        sumMap[parseInt(s1)+parseInt(s2)] = [s1,s2]
     }
 }
 
